@@ -16,6 +16,6 @@ jobs:
     - name: configure
       run: git clone https://github.com/holbertonschool/Betty.git && cd ./Betty && sudo ./install.sh && cd ..
     - name: betty style
-      run: betty-style *.c *.h
+      run: betty-style */*.c */*.h
     - name: betty doc
-      run: betty-doc *.c *.h
+      run: betty-doc */*.c */*.h

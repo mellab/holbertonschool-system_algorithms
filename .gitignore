@@ -108,3 +108,6 @@ flycheck_*.el
 
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs,c
+
+# main files
+*-main.c
